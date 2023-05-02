@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+body {
+  height: 120vh;
+  background-color: #161616;
+  font-family: "Poppins", sans-serif;
+}
+
+/*
+
+HEADER
+
+*/
+
+header {
+  display: flex;
+  height: 70px;
+  position: fixed;
+  width: 100vw;
+  transition: 0.5s;
+}
+.side-header {
+  flex: 1;
+  height: 100%;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+h3 {
+  color: #ff7b00;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav {
+  flex: 3;
+  display: flex;
+  justify-content: center;  
+}
+ul {
+  display: flex;
+  border-bottom: #ff7b00 2px solid;
+  padding: 0 30px;
+  height: 100%;
+}
+li {
+  list-style: none;
+  height: 100%;
+}
+li a {
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0 25px;
+}
+li a:hover {
+  opacity: 0.8;
+}
+li a p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/*
+
+A FOME
+
+*/
+
+#a-fome {
+  padding: 0;
+}
+.a-fome-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://fpabramo.org.br/focusbrasil/wp-content/uploads/sites/11/2022/07/POORCH1.jpe");
+  background-attachment: fixed;
+}
+h1 {
+  color: #ff7b00;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 20px;
+}
+h2 {
+  width: fit-content;
+  padding: 2px 6px;
+  border-bottom: #ff7b00 2px solid;
+  margin: 5px 0;
+}
+h4 {
+  font-size: 40px;
+}
+.a-fome-content {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 50px;
+  gap: 15px;
+}
+.a-fome-content p,
+.causas p, .baixada-santista-content p {
+  text-align: justify;
+  width: 60vw;
+  min-width: 300px;
+}
+.hungry-relates {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/img/imagem1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+span {
+  color: #ff7b00;
+}
+#causas {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 50px;
+  gap: 15px;
+}
+#baixada-santista {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/img/imagem2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#baixada-santista h4 {
+  font-size: 70px;
+}
+.baixada-santista-content {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 50px;
+  gap: 15px;
+  width: 60vw;
+  min-width: 300px;
+}
+.quem-somos{
+  padding:50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff7b00;
+}
+.quem-somos h2{
+  border-bottom: #161616 2px solid;
+}
